@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.2.2/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.2.2/ol.css">
+</head>
+<body>
+    
+    <div id="map" style="width: 100%; height: 500px;"></div>
+
+    
+  
+ 
+      <form id="filterForm">
+        <label for="state">Select State:</label>
+        <select id="state" name="state">
+          <option value="">Select State</option>
+        </select>
+       
+        <label for="district">Select District:</label>
+        <select id="district" name="district">
+          <option value="">Select District</option>
+        </select>
+       
+      </form>
+      <button id="selectButton">Select</button>
+      <button id="remove-bg">Select Only</button>
+ 
+     
+    </ul>
+  </li>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
